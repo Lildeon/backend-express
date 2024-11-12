@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        gap: 10px;
+      }
+    </style>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>EJS is one of the best view engine to opt in</p>
+    <form action="http://localhost:8000/api/user/create" method="post">
+      <input type="text" name="firstname" id="" placeholder="fullname" />
+      <input type="text" name="profession" id="" placeholder="profession" />
+      <button type="submit" class="btn-submit">Submit</button>
+    </form>
+  </body>
+</html>
